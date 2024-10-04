@@ -6,7 +6,7 @@ Es un archivo único que contiene todos los programas, librerías, dependencias 
 ## ¿Cuál es la relación entre una imagen y un contenedor? 
 # COMPLETAR 
 
-![Imagen y contenedores](imagenes/imagenContenedores.JPG)
+![Imagen y contenedores](img/imagenContenedores.JPG)
 ## Comandos para imágenes
 
 ### Descargar imagen
