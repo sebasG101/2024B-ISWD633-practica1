@@ -15,7 +15,7 @@ Crear un contenedor a partir de la imagen nginx version alpine con el mapeo de p
 ```
 docker run -d --name srv-web4 -p 3000:80 nginx:alpine 
 ```
-![mapeo](img/accesoLocalHost.PNG)
+![Acceso al localhost](img/accesoLocalHost.PNG)
 
 ### Para mapear más de un puerto
 
