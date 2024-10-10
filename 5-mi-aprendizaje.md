@@ -1,3 +1,4 @@
-# COMPLETAR  
-Comparando sus conocimientos antes de hacer la práctica con sus conocimientos después de hacer la tarea, explicar los principales aprendizajes logrados para beneficio de su formación profesional.  
-Si solucionó un problema presentado al realizar la práctica también se debe documentar.
+# Mi Aprendizaje
+En cuanto a los conocimientos previos a la realizacion de esta practica, diría que eran nulos en cuanto al conocimiento de comandos de Docker. Una vez terminada esta práctica, los principales conocimientos que he obtenido son: descarga de imágenes, visualización de su estado y borrado de las mismas.
+Además, tambien he adquirido conocimientos obre la creación, ejecución, uso de la extensión -d y eliminación de un contenedor.  
+Y por último, he aprendido acerca de los comandos realizados para el mapeo de puertos de un contenedor, ya sea únicamente de un puerto o dos.
