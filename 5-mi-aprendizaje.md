@@ -2,3 +2,4 @@
 En cuanto a los conocimientos previos a la realizacion de esta practica, diría que eran nulos en cuanto al conocimiento de comandos de Docker. Una vez terminada esta práctica, los principales conocimientos que he obtenido son: descarga de imágenes, visualización de su estado y borrado de las mismas.
 Además, tambien he adquirido conocimientos obre la creación, ejecución, uso de la extensión -d y eliminación de un contenedor.  
 Y por último, he aprendido acerca de los comandos realizados para el mapeo de puertos de un contenedor, ya sea únicamente de un puerto o dos.
+En lo personal, no tuve ningun error al realizar la practica, pero lo unico a tomar en cuenta, es que al intentar crear un contenedor sin una imagen existente, este lo descargará previamente, o si se intenta usar una imagen inexistente, no se podrá crear.
