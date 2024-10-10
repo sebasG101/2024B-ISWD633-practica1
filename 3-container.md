@@ -31,8 +31,10 @@ docker ps -a
 docker start <nombre contenedor o identificador>
 ```
 Iniciar el contenedor srv-web 
-# COMPLETAR
 
+```
+docker start srv-web
+```
 ### Listar los contenedores ejecutándose
 ```
 docker ps 
@@ -53,10 +55,11 @@ docker run --name <nombre contenedor> <nombre imagen>:<tag>
 ![Ecosistema de Docker](img/dockerRun.PNG)
 
 Crear y ejecutar inmediatamente el contenedor **srv-web2** usando la imagen nginx:alpine
-# COMPLETAR
-
-**¿Qué sucede luego de la ejecución del comando?**
-# COMPLETAR  
+```
+docker run --name srv-web2 nginx:alpine
+```
+**¿Qué sucede luego de la ejecución del comando?**  
+Después de ejecutar el comando, Docker lanza un contenedor con Nginx, configura algunos aspectos como IPv6, y luego inicia Nginx con varios procesos de trabajo listos para recibir solicitudes, pero no se pueden introducir mas comandos.
 
 Cuando ejecutas un contenedor en primer plano sin la opción -d (modo detach), el contenedor captura la entrada estándar (stdin) del terminal, lo que significa que el terminal queda "atrapado" y no puedes introducir más comandos hasta que detengas el contenedor.
 
@@ -68,7 +71,10 @@ Cuando un contenedor se ejecuta en segundo plano, Docker devuelve el control al 
 docker run -d --name <nombre contenedor> <nombre imagen>:tag
 ```
 Crear y ejecutar inmediatamente el contenedor **srv-web3** en modo detach usando la imagen nginx:alpine
-# COMPLETAR
+
+```
+docker run -d --name srv-web3 nginx:alpine
+```
 
 ### Para eliminar un contenedor
 
@@ -76,10 +82,14 @@ Crear y ejecutar inmediatamente el contenedor **srv-web3** en modo detach usando
 docker rm <nombre contenedor>
 ```
 Eliminar el contenedor que se creó a partir de la imagen hello-world 
-# COMPLETAR
+```
+docker rm cont-holaMundo
+```
 
 Verificar que el contenedor que se eliminó
-# COMPLETAR
+```
+docker ps -a
+```
 
 ### Para eliminar un contenedor que esté ejecutándose
 
@@ -87,12 +97,18 @@ Verificar que el contenedor que se eliminó
 docker rm -f <nombre contenedor>
 ```
 Eliminar el contenedor **srv-web3** 
-# COMPLETAR
+```
+docker rm -f srv-web3
+```
 
 Verificar que el contenedor que se eliminó
-# COMPLETAR
-
+```
+docker ps -a
+```
 ### Para inspecionar un contenedor 
 
 Inspeccionar el contenedor **srv-web** 
-# COMPLETAR
+```
+docker inspect srv-web
+```
+
