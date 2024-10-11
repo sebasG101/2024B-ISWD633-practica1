@@ -41,7 +41,7 @@ docker pull nginx:alpine
 ```
 docker images
 ```
-![Listado de Imagenes](img/listado_imagenes.PNG)
+![Listado de Imagenes](https://github.com/sebasG101/2024B-ISWD633-practica1/blob/main/img/listado_imagenes.png?raw=true)
 
 **Identificadores**
 
